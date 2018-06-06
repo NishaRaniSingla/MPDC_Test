@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>MPDC_Milestones_Trigger_Helper</members>
+        <members>MPDC_MinorProject_Trigger_Helper</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>MPDC_Asset__c.MPDC_Sharing_Rue_for_Elanco_EKS_users</members>
+        <members>MPDC_Asset__c.MPDC_Sharing_Rule_Elanco_Research_Users</members>
+        <members>MPDC_Asset__c.MPDC_Sharing_Rule_GS_IT_Users</members>
+        <members>MPDC_Asset__c.MPDC_Sharing_Rule_for_BUIT_GSS_Users</members>
+        <members>MPDC_Asset__c.MPDC_Sharing_Rule_for_BUIT_OUS_users</members>
+        <members>MPDC_Asset__c.MPDC_Sharing_Rule_for_BUIT_US_Users</members>
+        <members>MPDC_Asset__c.MPDC_Sharing_Rule_for_Elanco_Commercial_Function</members>
+        <members>MPDC_Asset__c.MPDC_Sharing_Rule_for_Elanco_M_Q_Users</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <version>41.0</version>
+</Package>

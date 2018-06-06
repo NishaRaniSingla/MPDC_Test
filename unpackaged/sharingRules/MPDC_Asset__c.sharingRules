@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>MPDC_Sharing_Rue_for_Elanco_EKS_users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to view ELANCO EKS users</description>
+        <label>MPDC Sharing Rue for Elanco EKS users</label>
+        <sharedTo>
+            <group>MPDC_Elanco_EKS_Contributors</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MPDC_hddn_Sub_Tower__c</field>
+            <operation>equals</operation>
+            <value>Elanco – EKS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MPDC_Sharing_Rule_Elanco_Research_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to view Elanco – Research records only.</description>
+        <label>MPDC Sharing Rule Elanco – Research Users</label>
+        <sharedTo>
+            <group>MPDC_Elanco_Research_Contributors</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MPDC_hddn_Sub_Tower__c</field>
+            <operation>equals</operation>
+            <value>Elanco – Research</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MPDC_Sharing_Rule_GS_IT_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to GS IT records only.</description>
+        <label>MPDC Sharing Rule GS IT Users</label>
+        <sharedTo>
+            <group>MPDC_GSIT_Contributors</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MPDC_hddn_Sub_Tower__c</field>
+            <operation>equals</operation>
+            <value>GS IT</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MPDC_Sharing_Rule_for_BUIT_GSS_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rules to view only BUIT GSS records only</description>
+        <label>MPDC Sharing Rule for BUIT GSS Users</label>
+        <sharedTo>
+            <group>MPDC_BUIT_GSS_Contributors</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MPDC_hddn_Sub_Tower__c</field>
+            <operation>equals</operation>
+            <value>BUIT – GSS Function</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MPDC_Sharing_Rule_for_BUIT_OUS_users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing to view BUIT OUS records only.</description>
+        <label>MPDC Sharing Rule for BUIT OUS users</label>
+        <sharedTo>
+            <group>MPDC_BUIT_OUS_Contributors</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MPDC_hddn_Sub_Tower__c</field>
+            <operation>equals</operation>
+            <value>BUIT_OUS</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MPDC_Sharing_Rule_for_BUIT_US_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to view BUIT-US records only</description>
+        <label>MPDC Sharing Rule for BUIT US Users</label>
+        <sharedTo>
+            <group>MPDC_BUIT_US_Contribuotrs</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MPDC_hddn_Sub_Tower__c</field>
+            <operation>equals</operation>
+            <value>BUIT – US Function</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MPDC_Sharing_Rule_for_Elanco_Commercial_Function</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to view Elanco Commercial Function  records only</description>
+        <label>MPDC Sharing Rule for Elanco – Commercial Function</label>
+        <sharedTo>
+            <group>MPDC_Elanco_Commercial_Fnc_Contributors</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MPDC_hddn_Sub_Tower__c</field>
+            <operation>equals</operation>
+            <value>Elanco – Commercial Function</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>MPDC_Sharing_Rule_for_Elanco_M_Q_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sharing rule to view Elanco – M&amp;Q records only.</description>
+        <label>MPDC Sharing Rule for Elanco – M&amp;Q Users</label>
+        <sharedTo>
+            <group>MPDC_Elanco_M_Q_Contributors</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>MPDC_hddn_Sub_Tower__c</field>
+            <operation>equals</operation>
+            <value>Elanco – M&amp;Q</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>
