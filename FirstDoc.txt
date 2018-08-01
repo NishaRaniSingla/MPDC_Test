@@ -3,7 +3,7 @@ My First push to branch doc
  HEAD
 Pull test for competing changes
 
-First Pull Test for merge conflict
+First Pull Test for merge conflict2
  af40e756d8b6d9c54d00248e3b7ad53251616fe1
 
 Added new text
