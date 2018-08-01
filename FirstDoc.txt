@@ -1,5 +1,5 @@
 My First push to branch doc
 
-First Pull Test
+Pull test for competing changes
 
 Added new text
