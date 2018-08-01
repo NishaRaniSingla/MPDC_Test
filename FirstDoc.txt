@@ -1,4 +1,5 @@
 My First push to branch doc
+<<<<<<< HEAD
 
 Pull test for competing changes
 
@@ -9,3 +10,6 @@ First Pull Test for merge conflict
 
 
 Added new text
+
+test pull from branch other then master
+
